@@ -32,7 +32,19 @@ All the kinds of Tetris will be stored in **g_shape_Teris[][4][4]** array.
 
 首先，我们需要用一个布尔数组来保存俄罗斯方块的形状，1表示当前的方块有数据，0表示没有。
 
-···
+```
+{ 1, 1, 1, 0 }, { 0, 0, 1, 0 }, { 0, 0, 0, 0 }, { 0, 0, 0, 0 }
+```
+
+稍做调整，看起来会更具体些：
+
+
+```
+1 1 1 0
+0 0 1 0
+0 0 0 0
+0 0 0 0
+```
 
 所有形状的俄罗斯方块都被存放在 **g_shape_Teris[][4][4]** 数组中。
 
@@ -80,7 +92,7 @@ bFlag equals to TRUE means right,otherwise means invalid.
  ...
 
 
-bFlag等于TRUE时，说明这种旋转是正确的，否则就是无效的。
+bFlag等于**TRUE**时，说明当前旋转是正确的，否则就是无效的。
 
 
 First,I used **GetWindowRect(hWnd, &rect);** function to get the size of the Window I need,it's a system function,

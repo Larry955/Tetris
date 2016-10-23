@@ -1,4 +1,4 @@
------update on Oct 6,2016
+-------------update on Oct 6,2016--------------------
 
 --------------------------------------------------------
  Preface
@@ -68,7 +68,7 @@ bFlag equals to TRUE means valid,otherwise means invalid.
 
 
 
--------------update on Oct,12,2016--------------------
+-------------update on Oct 12,2016--------------------
 
 if invalid,what we need to do is to update the position of the Tetris to make it valid,**++posX/++posY** does the work.
 

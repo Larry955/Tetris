@@ -78,4 +78,10 @@ if invalid,what we need to do is to update the position of the Tetris to make it
 - Fifth,Update the Tetris,before this step,we need to generate next Tetris,function **INT	GetRandNum(int iMin, int iMax)** generates a random number between 0 and TERIS_TYPE for us so that we can generate a random Tetris with random shape,then we call **VOID RefreshTeris(int nStartX, int nStartY, BOOL bTeris[4][4], BOOL bGame[GAME_X][GAME_Y])** to generate next Tetris,we also update score in this function.
 
 
+--------------------------------------------------------
+Defect
+-------------------------------------------------------- 
+When I run this program,I found that the screen always **flickered**,but I don't know how to handle this problem,hope that someone could help me: )
+
+
 (**Forgive me for my poor English,cause it's really hard for me to describe the whole program in English,ah..the layout of this file is also ugly...**)

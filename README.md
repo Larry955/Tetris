@@ -1,13 +1,13 @@
 -----update on Oct 6,2016
 
 --------------------------------------------------------
- Preface·前言
+ Preface
 --------------------------------------------------------
 - Before introducing the project(based on Win32),a small mistake I have to say is that I used the wrong word "**Teris**" in my whole project,while the right word is "**Tetris**" ,I didn't notice the mistake until I used baidu search enginee to  looked for the English word of "俄罗斯方块".So hope you don't  get any uncomfortable feelings while viewing  code in  **Teris.cpp**  
 
 
 --------------------------------------------------------
-A Detailed Introduction  of Teris.cpp·Teris.cpp的详细介绍
+A Detailed Introduction  of Teris.cpp
 -------------------------------------------------------- 
 - Tetris is one of the most famous game in the world,I used to rottened in this game when I was a child.For me it's an exciting time when I implement it(though still have some little bugs that I can't fix ).Now, I'd like to share you the logical implement of this game.
 
@@ -76,3 +76,6 @@ if invalid,what we need to do is to update the position of the Tetris to make it
 
 
 - Fifth,Update the Tetris,before this step,we need to generate next Tetris,function **INT	GetRandNum(int iMin, int iMax)** generates a random number between 0 and TERIS_TYPE for us so that we can generate a random Tetris with random shape,then we call **VOID RefreshTeris(int nStartX, int nStartY, BOOL bTeris[4][4], BOOL bGame[GAME_X][GAME_Y])** to generate next Tetris,we also update score in this function.
+
+
+(**Forgive me for my poor English,cause it's really hard for me to describe the whole program in English,ah..the layout of this file is also ugly...**)

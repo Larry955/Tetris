@@ -5,12 +5,12 @@
 --------------------------------------------------------
 - Before introducing the project(based on Win32),a small mistake I have to say is that I used the wrong word "**Teris**" in my whole project,while the right word is "**Tetris**" ,I didn't notice the mistake until I used baidu search enginee to  looked for the English word of "俄罗斯方块".So hope you don't  get any uncomfortable feelings while viewing  code in  **Teris.cpp**  
 
+![image](https://github.com/Larry955/Tetris/blob/master/1.jpg)
 
 --------------------------------------------------------
 A Detailed Introduction  of Teris.cpp
 -------------------------------------------------------- 
 - Tetris is one of the most famous game in the world,I used to rottened in this game when I was a child.For me it's an exciting time when I implement it(though still have some little bugs that I can't fix ).Now, I'd like to share you the logical implement of this game.
-
 
 
 - First,we need a BOOL array to store the shape of the Tetris,"1" means the current block has element, "0" means nothing there. Like this: 
